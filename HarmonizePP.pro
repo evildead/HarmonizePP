@@ -11,10 +11,18 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = HarmonizePP
 TEMPLATE = app
 
+include(externals/qmidi/src/QMidi.pri)
+include(externals/dstd/src/dstdlib.pri)
 
 SOURCES += main.cpp\
-        ui/harmonizemainwindow.cpp
+        ui/harmonizemainwindow.cpp \
+    notes/interval.cpp \
+    notes/note.cpp \
+    notes/scale.cpp
 
-HEADERS  += ui/harmonizemainwindow.h
+HEADERS  += ui/harmonizemainwindow.h \
+    notes/interval.h \
+    notes/note.h \
+    notes/scale.h
 
 FORMS    += ui/harmonizemainwindow.ui

@@ -5,7 +5,7 @@
  *************************************************/
 
 
-#include "harmonizemainwindow.h"
+#include "ui/harmonizemainwindow.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])
