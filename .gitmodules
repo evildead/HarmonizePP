@@ -1,0 +1,6 @@
+[submodule "externals/qmidi"]
+	path = externals/qmidi
+	url = https://github.com/evildead/QMidi.git
+[submodule "externals/dstd"]
+	path = externals/dstd
+	url = https://github.com/evildead/DSTD.git
