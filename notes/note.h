@@ -12,6 +12,10 @@
 
 using namespace std;
 
+class Note;
+
+typedef std::vector<Note> Chord;
+
 class Note
 {
 public:
@@ -31,7 +35,7 @@ public:
         B = 11
     };
 
-private:
+protected:
     NoteName note_;
 
 public:
@@ -53,7 +57,7 @@ public:
 
     unsigned int toNum() const;
 
-private:
+protected:
     static NoteName numberToNoteName(unsigned int num);
 };
 

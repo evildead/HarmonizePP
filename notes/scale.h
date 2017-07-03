@@ -15,7 +15,7 @@ using namespace std;
 
 class Scale
 {
-private:
+protected:
     vector<Note> vScale_;
 
 public:

@@ -18,11 +18,13 @@ SOURCES += main.cpp\
         ui/harmonizemainwindow.cpp \
     notes/interval.cpp \
     notes/note.cpp \
-    notes/scale.cpp
+    notes/scale.cpp \
+    notes/midinote.cpp
 
 HEADERS  += ui/harmonizemainwindow.h \
     notes/interval.h \
     notes/note.h \
-    notes/scale.h
+    notes/scale.h \
+    notes/midinote.h
 
 FORMS    += ui/harmonizemainwindow.ui

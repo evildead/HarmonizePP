@@ -24,7 +24,7 @@ public:
 
     static const int NUM_OF_NOTES = 12;
 
-private:
+protected:
     vector<IntervalStep> vInterval_;
 
 public:
